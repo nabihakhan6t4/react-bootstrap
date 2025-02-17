@@ -1,0 +1,24 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+.hero-container {
+  padding: 50px;
+  transition: background 0.3s ease-in-out;
+}
+
+.hero-container.light {
+  background-color: #f8f9fa;
+  color: black;
+}
+
+.hero-container.dark {
+  background-color: #212529;
+  color: white;
+}
+
+.hero-title {
+  font-weight: bold;
+}
+
+.hero-text {
+  font-size: 18px;
+}
